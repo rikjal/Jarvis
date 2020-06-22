@@ -5,9 +5,7 @@ import wikipedia as wk
 import webbrowser as wb
 import os
 from PyInstaller.utils.hooks import collect_submodules
-import pywintypes
-import win32api
-from win32ctypes.pywin32 import pywintypes
+
 my_hidden_imports = collect_submodules('pyttsx3')
 
 # Initialization
