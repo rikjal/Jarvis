@@ -89,7 +89,7 @@ if __name__ == "__main__":
             speak("According to Wikipedia, " + results)
             print("You need anything else sir?")
             speak("You need anything else sir?")
-        elif 'stop' in query or 'bye-bye' in query or 'exit' in query:
+        elif 'stop' in query or 'bye-bye' in query or 'exit' in query or 'goodbye' in query:
             print(f"Thank you {uname} sir. Have a nice day!")
             speak(f"Thank you {uname} sir. Have a nice day!")
             print("Exiting Jarvis...")
