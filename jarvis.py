@@ -46,8 +46,8 @@ def getName():
         try:
             print("Recognising...")
             query = r.recognize_google(audio, language='en-in')
-            speak(f"You said: {query}, is this right?")
             print(f"You said: {query}, is this right?")
+            speak(f"You said: {query}, is this right?")
             ans = takeCommand().lower()
             if 'yes' in ans or 'right' in ans:
                 return query
