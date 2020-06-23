@@ -6,6 +6,12 @@ import webbrowser as wb
 import os
 from PyInstaller.utils.hooks import collect_submodules
 
+import PyInstaller.__main__
+import ctypes
+import win32ctypes
+from win32ctypes import pywin32
+from win32ctypes.pywin32 import pywintypes
+
 hiddenimports = collect_submodules('pyttsx3')
 import pkg_resources.py2_warn
 
