@@ -6,7 +6,8 @@ import webbrowser as wb
 import os
 from PyInstaller.utils.hooks import collect_submodules
 
-my_hidden_imports = collect_submodules('pyttsx3')
+hiddenimports = collect_submodules('pyttsx3')
+import pkg_resources.py2_warn
 
 # Initialization
 engine = pyttsx3.init('sapi5')
