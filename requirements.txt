@@ -1,16 +1,25 @@
 altgraph==0.17
+auto-py-to-exe==2.7.5
 beautifulsoup4==4.9.1
+bottle==0.12.18
+bottle-websocket==0.2.9
 certifi==2020.6.20
+cffi==1.14.0
 chardet==3.0.4
 comtypes==1.1.7
 docopt==0.6.2
+Eel==0.12.4
 future==0.18.2
+gevent==20.6.2
+gevent-websocket==0.10.1
+greenlet==0.4.16
 idna==2.9
 Js2Py==0.70
 packaging==20.4
 pefile==2019.4.18
 pipwin==0.5.0
 PyAudio @ file:///C:/Users/Saptarshi/pipwin/PyAudio-0.2.11-cp36-cp36m-win_amd64.whl
+pycparser==2.20
 PyInstaller==3.6
 pyjsparser==2.7.1
 pyparsing==2.4.7
@@ -26,4 +35,7 @@ soupsieve==2.0.1
 SpeechRecognition==3.8.1
 tzlocal==2.1
 urllib3==1.25.9
+whichcraft==0.6.1
 wikipedia==1.4.0
+zope.event==4.4
+zope.interface==5.1.0
