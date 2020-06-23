@@ -4,6 +4,7 @@ import speech_recognition as sr
 import wikipedia as wk
 import webbrowser as wb
 import os
+import sys
 from PyInstaller.utils.hooks import collect_submodules
 
 import PyInstaller.__main__
@@ -11,6 +12,9 @@ import ctypes
 import win32ctypes
 from win32ctypes import pywin32
 from win32ctypes.pywin32 import pywintypes
+from win32ctypes.pywin32 import win32api
+
+win32api.LoadLibraryEx(sys.executable, 0, win32api.LOAD_LIBRARY_AS_DATAFILE)
 
 hiddenimports = collect_submodules('pyttsx3')
 import pkg_resources.py2_warn
